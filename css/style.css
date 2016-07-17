@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i);
+
+
+html,body{
+	height: 100%;
+}
+
+body {
+	font: 14px 'Lato', sans-serif;
+	color: #666;
+	padding-top: 50px;
+	background: #f5f5f5;	
+	/*overflow-x: hidden;*/
+}
+
+/* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* ---------------------------------------------- /*
+ * Typography
+/* ---------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 3px;
+	margin: 5px 0 5px;
+	color: #222;
+}
+
+h2 {
+	font-size: 30px;
+	margin: 0 0 30px;
+}
+
+h3 {
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0 0 5px;
+}
+
+h4 {
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+h6 {
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+/* Navigation */
+.navbar-inverse{
+	/*background-color: rgb(48,167,177);*/
+	/*background-color: rgba(21,125,134,0.8);*/
+	/*background-color: rgb(139,93,158);*/
+	background-color: rgb(27,148,141);
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand{
+     color: #fff; 
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	background: #fff;
+	color: #1b948d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #1b948d;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #1b948d;
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #1b948d;
+    background-color: #ffffff;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.block{
+	padding: 80px 0 60px;
+}
+
+.title{
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+.title-line{
+	width: 70px;
+	color: rgb(139,93,158);
+	color: rgb(27,148,141);
+	border:2px solid;
+	border-radius: 2px solid;
+}
+
+.content{
+	font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+/* About section */
+
+#about, #order{
+	background: #fff;
+}
+
+/* services section */
+
+.img-services{
+	padding:40px 0 30px;
+}
+
+.thumbnail-custom{
+	border-radius: 0px;
+	border:none;
+	-webkit-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.75);
+	margin-top: 20px;
+}
+
+.thumbnail-custom h2{
+	letter-spacing: 0px;
+	margin-bottom: 10px;
+}
+
+.thumbnail-custom p{
+	font-size: 16px;
+	padding: 10px 10px 20px 10px;
+}
+
+.sale-box{
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	height: 130px;
+	width: 143px;
+	text-align: center;
+	z-index: 0;
+	right:0;
+	margin-top: 20px;
+    margin-right: 15px;
+}
+.sale-box span.on_sale{
+	color: white !important;
+    font-size: 12px;
+    color: #444;
+    background: #e03b13;
+    text-transform: uppercase;
+    padding: 60px 30px 15px 40px;
+    width: 281px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -33px;
+    top: -27px;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+    -webkit-transform: rotate(-44deg); 
+    -ms-transform: rotate(-44deg);
+    transform: rotate(40deg);
+    box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
+}
+
+/* How to order section */
+
+.order-box{
+	border:2px solid;
+	margin-top: 20px;
+	padding: 10px 0 10px;
+}
+
+.order-icon{
+	color: #000;
+	padding: 20px 0 20px;
+}
+
+.sequence{
+	position: absolute;
+    background: #1b948d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+    border-radius: 50px;
+    top: 85px;
+    left: 5px;
+}
+
+/* Footer */
+
+#footer{
+	background-color: rgb(139,93,158);
+	background-color: rgb(27,148,141);
+	padding: 80px 0 60px;
+	color: #fff;
+}
+
+
+
